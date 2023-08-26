@@ -1,4 +1,21 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
 .App {
+  margin: 0px;
+  padding: 0px;
+  width:100%;
+  height: fit-content;
+  /* background: url('./images/mainback.svg'); */
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +52,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
