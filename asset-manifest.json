@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/waygo_page/static/css/main.b8371a4f.css",
-    "main.js": "/waygo_page/static/js/main.f015a042.js",
+    "main.js": "/waygo_page/static/js/main.c396546a.js",
     "static/media/background.svg": "/waygo_page/static/media/background.61a4880affc84216dcff.svg",
     "static/media/trusted.svg": "/waygo_page/static/media/trusted.69160038fe636fde90267781450c7359.svg",
     "static/media/Anywhere.svg": "/waygo_page/static/media/Anywhere.20f2aaec7f2a28b83215f6bdb27fde5b.svg",
@@ -11,10 +11,10 @@
     "static/media/flexability.svg": "/waygo_page/static/media/flexability.ea9f3272bf17d6756d4a09d057f39b5f.svg",
     "index.html": "/waygo_page/index.html",
     "main.b8371a4f.css.map": "/waygo_page/static/css/main.b8371a4f.css.map",
-    "main.f015a042.js.map": "/waygo_page/static/js/main.f015a042.js.map"
+    "main.c396546a.js.map": "/waygo_page/static/js/main.c396546a.js.map"
   },
   "entrypoints": [
     "static/css/main.b8371a4f.css",
-    "static/js/main.f015a042.js"
+    "static/js/main.c396546a.js"
   ]
 }
