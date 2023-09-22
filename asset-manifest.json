@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/waygo_page/static/css/main.c6b5e9a5.css",
-    "main.js": "/waygo_page/static/js/main.3a39e760.js",
+    "main.css": "/waygo_page/static/css/main.5e7d394e.css",
+    "main.js": "/waygo_page/static/js/main.049badf5.js",
     "static/media/background.svg": "/waygo_page/static/media/background.61a4880affc84216dcff.svg",
     "static/media/fifth.svg": "/waygo_page/static/media/fifth.0fb936c5e623be83fac755eb999d7ce7.svg",
     "static/media/fourth.svg": "/waygo_page/static/media/fourth.3a7100ccd7095605046f173d4bea6f44.svg",
@@ -16,11 +16,11 @@
     "static/media/gear.svg": "/waygo_page/static/media/gear.ecdbe86e8502d2f198b943eeb09c8726.svg",
     "static/media/flexability.svg": "/waygo_page/static/media/flexability.ea9f3272bf17d6756d4a09d057f39b5f.svg",
     "index.html": "/waygo_page/index.html",
-    "main.c6b5e9a5.css.map": "/waygo_page/static/css/main.c6b5e9a5.css.map",
-    "main.3a39e760.js.map": "/waygo_page/static/js/main.3a39e760.js.map"
+    "main.5e7d394e.css.map": "/waygo_page/static/css/main.5e7d394e.css.map",
+    "main.049badf5.js.map": "/waygo_page/static/js/main.049badf5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6b5e9a5.css",
-    "static/js/main.3a39e760.js"
+    "static/css/main.5e7d394e.css",
+    "static/js/main.049badf5.js"
   ]
 }
