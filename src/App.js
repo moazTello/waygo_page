@@ -2,32 +2,18 @@ import './App.css';
 import './pages/AllApp.css';
 import Layout from './Components/Navbar/Layout';
 import { Route,Routes } from 'react-router-dom';
-import Login from './pages/Login';
 import Missing from './pages/Missing';
-
 import { DataProvider } from './context/Datacontext';
 import HomePage from './pages/HomePage';
-import ShowAllCom from './pages/ShowAllCom';
-import Financial from './pages/Financial';
-import EmploymentOrders from './pages/EmploymentOrders';
-import CurrentOffers from './pages/CurrentOffers';
-import AddNewOffer from './pages/AddNewOffer';
-import AddNewCom from './pages/AddNewCom';
+
 
 function App() {
   return (
     <DataProvider>
       <Routes>
-          <Route path='/waygo' element={<Layout/>}>
+          <Route path='/' element={<Layout/>}>
             {/* <Route index element={<HomePage/>}/> */}
-            <Route path='/waygo' element={<Login/>}/>
-            <Route path='/home' element={<HomePage/>}/>
-            <Route path='/addnewcom' element={<AddNewCom/>}/>
-            <Route path='/addnewoffer' element={<AddNewOffer/>}/>
-            <Route path='/currentoffers' element={<CurrentOffers/>}/>
-            <Route path='/employmentorders' element={<EmploymentOrders/>}/>
-            <Route path='/financial' element={<Financial/>}/>
-            <Route path='/showallcom' element={<ShowAllCom/>}/>
+            <Route path='/waygo_page' element={<HomePage/>}/>
             <Route path='*' element={<Missing/>}/>
           </Route>
       </Routes>  
@@ -36,3 +22,25 @@ function App() {
 }
 
 export default App;
+// https://way-go.vercel.app/createAdminForAllProject
+// {
+//   "email":"yaser@waygo"  ,
+//   "password":"@yaser@"  ,
+//   "firstName":"yaser" ,
+//   "lastName": "alsamsam" ,
+//   "phone":  "0991810721"   ,
+//   "accountType":"admin"
+//   }
+// npm install i18next react-i18next
+
+// echo "# waygo_page" >> README.md
+// git init
+// git add README.md
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/moazTello/waygo_page.git
+// git push -u origin main
+
+// git remote add origin https://github.com/moazTello/waygo_page.git
+// git branch -M main
+// git push -u origin main

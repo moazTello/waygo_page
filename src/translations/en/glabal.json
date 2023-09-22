@@ -1,0 +1,72 @@
+{
+    "header":{
+        "Products":"Products",
+        "Solutions":"Solutions",
+        "Resources":"Resources",
+        "Enterprise":"Enterprise",
+        "Pricing":"Pricing",
+        "Contact":"Contact us",
+        "Download":"Download App"
+    },
+    "first":{
+        "h1":"Your journey made simple",
+        "h12":"Advance booking of trips",
+        "h13":"tools together",
+        "h2":"Keep everything in the same place—even",
+        "h21":"if you are in home",
+        "Download":"Download WayGo",
+        "Sign":"Sign-up"
+    },
+    "second":{
+        "Trusted":"Trusted Clients",
+        "we":"We work to provide customer comfort",
+        "we2":"and help companies provide better service"
+    },
+    "third":{
+        "our":"Our Top Features",
+        "our2": "There are many professional transportation companies",
+        "our21":"that want to transport you on their buses, provide",
+        "our22":"you with all the amenities and deliver you on time",
+        "getsterted":"Get Started",
+        "anywhare":"Any Where",
+        "anywhare1":"Companies that serve you wherever you are.",
+        "Time":"Time Slots",
+        "Time1":"Arrive to your appointment on time.",
+        "flexibility":"Flexibility",
+        "flexibility1":"The company will work to ensure your comfort.",
+        "Efficiency":"Efficiency",
+        "Efficiency1":"We have qualified workers to manage companies."
+    },
+    "fourth":{
+        "make":"Make multi-booking",
+        "make1":"from one place",
+        "facility":"Facilitating the reservation process through the",
+        "facility1":"application with easy and effective interfaces"
+    },
+    "fifth":{
+        "save":"Saves trouble and time",
+        "save2":"For many people",
+        "ifyou":"If you encounter any problem with the application,",
+        "ifyou1":"do not hesitate to contact us via the emergency number",
+        "call":"Call us"
+    },
+    "sixth":{
+        "check":"Check What Our Clients ",
+        "check2":"Think About Us",
+        "moaz_name":"Mhd Moaz Tello",
+        "moaz_job":"Artificial Intelligence Engineer",
+        "moaz_title":"The application is wonderful and perfect and saves a lot of time, effort and fatigue. Thank you for this civilizational boost.",
+        "yasser_name":"Yasser Al-Samsam",
+        "yasser_job":"Artificial Intelligence Engineer",
+        "yasser_title":"Really this is a great app!! All bus users should try it because it will save them a lot of trouble.",
+        "ahmad_name":"Ahmad Obaid",
+        "ahmad_job":"Artificial Intelligence Engineer",
+        "ahmad_title":"I used to suffer a lot from the problem of booking a bus to go from one area to another, but now it has become very simple.",
+        "wassem_name":"Wassem Kaskas",
+        "wassem_job":"Artificial Intelligence Engineer",
+        "wassem_title":"After using this application, my day will be better and I believe that this application has given comfort to many people."
+    },
+    "footer":{
+        "footer":"Developed by WayGo Group"
+    }
+}

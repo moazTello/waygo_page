@@ -1,23 +1,31 @@
 import React,{ useContext, useState } from 'react'
 import './Navstyle.css';
-import {
-     AiOutlineClose} from 'react-icons/ai';
+import { AiOutlineClose,AiOutlineGlobal} from 'react-icons/ai';
 import { BiMenu } from 'react-icons/bi';
 import { Link } from 'react-router-dom';
 import useWindowSize from '../../hooks/useWindowSize';
 import DataContext from '../../context/Datacontext';
-
+import { useTranslation } from 'react-i18next';
+import logo from '../../images/Nav_logo.svg';
 const Navbar = () => {
-    const { logout } = useContext(DataContext);
+    const {lang,setLang} = useContext(DataContext);
+    
+    const [t,i18n] = useTranslation("global");
+    const langchange = () => {
+        if(lang){
+            i18n.changeLanguage('en')
+        }
+        else{
+            i18n.changeLanguage('ar')
+        }
+    }
     const { width } = useWindowSize();
     const [ clicked , setClicked ] = useState(false);
     const handleClick = () => {
-        if(width<=900){
+        if(width<=1050){
             setClicked(!clicked);
         }
     }
-
-    
   return (
     <div className='nav_main'>
        <nav className='nav_2'>
@@ -26,34 +34,33 @@ const Navbar = () => {
                         {clicked ? <AiOutlineClose/> : <BiMenu/>}
                     </i>
             </div>
+            {width > 1050 &&  <img src={logo} style={{height:'80px',marginLeft:'80px'}} alt=''/>}
         <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
-            <Link to='/'  className='nav-links' onClick={() => {handleClick(); logout();}}>
-                <p>تسجيل الخروج</p> 
+            <Link to='/waygo_page'  className='nav-links' onClick={() => {handleClick();}}>
+                <p>{t("header.Products")}</p> 
             </Link>
-            <Link to='/employmentorders'  className='nav-links' onClick={() => {handleClick();}}>
-                <p>طلبات التوظيف</p> 
+            <Link to='/waygo_page'  className='nav-links' onClick={() => {handleClick();}}>
+                <p>{t("header.Solutions")}</p> 
             </Link>
-            <Link to='/financial'  className='nav-links' onClick={() => {handleClick();}}>
-                <p>مالية</p>
+            <Link to='/waygo_page'  className='nav-links' onClick={() => {handleClick();}}>
+                <p>{t("header.Resources")}</p>
             </Link>
-            <Link to='/addnewoffer'className='nav-links' onClick={() => {handleClick();}}>
-                <p>اضافة عروض</p> 
+            <Link to='/waygo_page'  className='nav-links' onClick={() => {handleClick();}}>
+                <p>{t("header.Enterprise")}</p>
             </Link>
-            <Link to='/currentoffers'  className='nav-links' onClick={() => {handleClick();}}>
-                <p>العروض الحالية</p> 
+            <Link to='/waygo_page'className='nav-links' onClick={() => {handleClick();}}>
+                <p>{t("header.Pricing")}</p> 
             </Link>
-            <Link to='/showallcom'  className='nav-links' onClick={() => {handleClick();}}>
-                <p>الشركات المشتركة</p>
+            
+            <Link to='/waygo_page'  className='nav-links' onClick={() => {handleClick();}}>
+                <p>{t("header.Contact")}</p>
             </Link>
-            <Link to='/addnewcom'className='nav-links' onClick={() => {handleClick();}}>
-                <p>اضافة شركة سفر</p> 
-            </Link>
-
-
-
-
-
-
+            <button onClick={() => {setLang(!lang);langchange();handleClick();}} className='nav-links' style={{border:'none',display:'flex',alignItems:'center',justifyContent:'center'}}>
+                <AiOutlineGlobal size={24}/>
+            </button>
+            <button className='nav-links' onClick={() => {setLang(!lang);langchange();handleClick();}} style={{backgroundColor:'rgb(35,56,98)',border:'none',color:'white'}}>
+                <p>{t("header.Download")}</p>
+            </button>
         </ul>
        </nav> 
     </div>

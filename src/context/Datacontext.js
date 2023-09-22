@@ -1,33 +1,27 @@
 import { createContext, useState} from "react";
-import { useNavigate
+// import { useNavigate
 // , Location, Link
- } from 'react-router-dom';
-// import axios from '../api/DataTrans';
+//  } from 'react-router-dom';
 
 const DataContext = createContext({});
 export const DataProvider = ({ children }) => {
-  const navigate = useNavigate();
-  const [ password,setPassword ] = useState('aa');
-  const [ userName,setUserName ] = useState('moaz');
-  const [ isLogedIn,setIsLogedIn ] = useState(false);
-
-  const handleSubmitlogin = () => {
-    if(password === 'aa' && userName === 'moaz'){
-        setIsLogedIn(true);
-        navigate('/home');
-    }
-  }
-  const logout = () => {
-    setIsLogedIn(false);
-    navigate('/waygo');
-  }
+  // const navigate = useNavigate();
+  const [lang,setLang] = useState(false)
 
     return(
         <DataContext.Provider value={{
-            userName,setUserName,password,setPassword,isLogedIn,handleSubmitlogin,logout
+          lang,setLang
         }}>
             {children}
         </DataContext.Provider>
     )
 }
 export default DataContext;
+// moaz ==»» {
+//   "email":"yaser@waygo"     ,
+//   "password":"@yaser@"  ,
+//   "firstName":"yaser" ,
+//   "lastName": "alsamsam" ,
+//   "phone":  "0991810721"   ,
+//   "accountType":"admin"
+//   }  هي حساب لمعاذ مشان يبلش شغل
