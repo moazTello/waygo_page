@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/waygo_page/static/css/main.c203fb18.css",
-    "main.js": "/waygo_page/static/js/main.e984d839.js",
+    "main.css": "/waygo_page/static/css/main.bcf59328.css",
+    "main.js": "/waygo_page/static/js/main.0fd475f9.js",
     "static/media/background.svg": "/waygo_page/static/media/background.61a4880affc84216dcff.svg",
     "static/media/fifth.svg": "/waygo_page/static/media/fifth.0fb936c5e623be83fac755eb999d7ce7.svg",
+    "static/media/fifthAR.svg": "/waygo_page/static/media/fifthAR.eb25ac57a76c472444e41ffcaf09368f.svg",
     "static/media/Employment.svg": "/waygo_page/static/media/Employment.308ef6efff3472bd5803df0a4f53ca82.svg",
+    "static/media/EmploymentAR.svg": "/waygo_page/static/media/EmploymentAR.e43e91d2503526187c289ec90d7fedf2.svg",
     "static/media/fourth.svg": "/waygo_page/static/media/fourth.3a7100ccd7095605046f173d4bea6f44.svg",
+    "static/media/fourthAR.svg": "/waygo_page/static/media/fourthAR.a4b31fd90f1d54c122513818adcffc34.svg",
     "static/media/trusted.svg": "/waygo_page/static/media/trusted.69160038fe636fde90267781450c7359.svg",
     "static/media/Anywhere.svg": "/waygo_page/static/media/Anywhere.20f2aaec7f2a28b83215f6bdb27fde5b.svg",
     "static/media/wassem.svg": "/waygo_page/static/media/wassem.ac2d7f27e129da4d8e066fa8de01097d.svg",
@@ -18,11 +21,11 @@
     "static/media/gear.svg": "/waygo_page/static/media/gear.ecdbe86e8502d2f198b943eeb09c8726.svg",
     "static/media/flexability.svg": "/waygo_page/static/media/flexability.ea9f3272bf17d6756d4a09d057f39b5f.svg",
     "index.html": "/waygo_page/index.html",
-    "main.c203fb18.css.map": "/waygo_page/static/css/main.c203fb18.css.map",
-    "main.e984d839.js.map": "/waygo_page/static/js/main.e984d839.js.map"
+    "main.bcf59328.css.map": "/waygo_page/static/css/main.bcf59328.css.map",
+    "main.0fd475f9.js.map": "/waygo_page/static/js/main.0fd475f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c203fb18.css",
-    "static/js/main.e984d839.js"
+    "static/css/main.bcf59328.css",
+    "static/js/main.0fd475f9.js"
   ]
 }
