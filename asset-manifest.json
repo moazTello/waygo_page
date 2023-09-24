@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/waygo_page/static/css/main.7321f26f.css",
-    "main.js": "/waygo_page/static/js/main.425ae333.js",
+    "main.css": "/waygo_page/static/css/main.c203fb18.css",
+    "main.js": "/waygo_page/static/js/main.337f7521.js",
     "static/media/background.svg": "/waygo_page/static/media/background.61a4880affc84216dcff.svg",
     "static/media/fifth.svg": "/waygo_page/static/media/fifth.0fb936c5e623be83fac755eb999d7ce7.svg",
     "static/media/Employment.svg": "/waygo_page/static/media/Employment.308ef6efff3472bd5803df0a4f53ca82.svg",
@@ -13,15 +13,16 @@
     "static/media/moaz.svg": "/waygo_page/static/media/moaz.0a204ac6d349241eff6653866b3f0dd8.svg",
     "static/media/ahmad.svg": "/waygo_page/static/media/ahmad.2b0962f2513e263577364c2309bac84e.svg",
     "static/media/Oclock.svg": "/waygo_page/static/media/Oclock.20d5538ce2ba1acda167f7592cdcc94a.svg",
+    "static/media/way_go_bepartner.svg": "/waygo_page/static/media/way_go_bepartner.90f21bcbfbc80cb16766ca09ba55064a.svg",
     "static/media/Nav_logo.svg": "/waygo_page/static/media/Nav_logo.4672b575ee047fd90d0be20611bfd885.svg",
     "static/media/gear.svg": "/waygo_page/static/media/gear.ecdbe86e8502d2f198b943eeb09c8726.svg",
     "static/media/flexability.svg": "/waygo_page/static/media/flexability.ea9f3272bf17d6756d4a09d057f39b5f.svg",
     "index.html": "/waygo_page/index.html",
-    "main.7321f26f.css.map": "/waygo_page/static/css/main.7321f26f.css.map",
-    "main.425ae333.js.map": "/waygo_page/static/js/main.425ae333.js.map"
+    "main.c203fb18.css.map": "/waygo_page/static/css/main.c203fb18.css.map",
+    "main.337f7521.js.map": "/waygo_page/static/js/main.337f7521.js.map"
   },
   "entrypoints": [
-    "static/css/main.7321f26f.css",
-    "static/js/main.425ae333.js"
+    "static/css/main.c203fb18.css",
+    "static/js/main.337f7521.js"
   ]
 }
